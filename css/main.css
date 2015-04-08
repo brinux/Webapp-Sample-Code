@@ -1,0 +1,134 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300);
+
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding-top: 45px;
+	color: #333;
+	background-color: #f1f1f1;
+}
+
+h1 {
+	font-size: 26px;
+	margin: 40px 0 40px;
+	text-align: center;
+	font-weight: 300;
+}
+
+.search {
+	width: 400px;
+	margin: 40px auto 40px;
+	font-weight: 100;
+}
+
+.search input {
+	height: 55px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-width: 0;
+	width: 360px;
+	padding: 0 20px;
+	font-size: 20px;
+	font-weight: 100;
+	outline: none;
+}
+
+.search p {
+	padding-left: 20px;
+	font-size: 15px;
+	font-weight: 100;
+}
+
+.results,
+.message {
+	width: 500px;
+	margin: 40px auto 40px;
+	font-weight: 100;
+}
+
+.results ul,
+.message {
+	background-color: #fff;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 0;
+}
+
+.message {
+	background-color: #ffa;
+    padding: 10px;
+}
+
+.results ul li {
+	list-style: outside none none;
+	height: 70px;
+	padding: 0 15px;
+	vertical-align: middle;
+}
+
+.results ul li + li {
+	border-top: 2px solid #f3f3f3;
+}
+
+.results ul li p {
+	height: 70px;
+	display: table-cell;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.results ul li p span {
+	text-decoration: underline;
+	-moz-text-decoration-color: #aaa;
+	text-decoration-color: #aaa;
+}
+
+.results ul li p:nth-child(1) {
+	width: 50px;
+	padding-right: 15px;
+}
+
+.results ul li p:nth-child(2) {
+	width: 215px;
+	padding-right: 15px;
+}
+
+.results ul li p:nth-child(3) {
+	width: 60px;
+	padding-right: 15px;
+}
+
+.results ul li p:nth-child(4) {
+	width: 100px;
+	text-align: right;
+}
+
+.results ul li img {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+}
+
+.hidden {
+	display: none;
+	visibility: hidden;
+}
+
+#header {
+	position: fixed;
+	height: 45px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: #273552;
+	background-image: url("/images/logo.png");
+	background-position: 5px 5px;
+	background-repeat: no-repeat;
+}
